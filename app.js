@@ -31,6 +31,6 @@ app.use("/api", auth);
 app.use("/api", video);
 app.use("/uploads", filehandler);
 
-app.listen(port, () => {
+app.listen(process.env.PORT, () => {
   console.log(`http://127.0.0.1:${port}`);
 });
