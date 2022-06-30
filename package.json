@@ -2,7 +2,7 @@
   "name": "test01",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "npx nodemon"
   },
